@@ -952,6 +952,58 @@ li {
   width: 141px;
 }
 
+.indicators1__item-graphic1, .indicators1__item-graphic2, .indicators1__item-graphic3, .indicators1__item-graphic4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.indicators1__item-graphic1 {
+  width: 350px;
+}
+
+.indicators1__item-graphic2 {
+  width: 370px;
+}
+
+.indicators1__item-graphic3 {
+  width: 760px;
+}
+
+.indicators1__item-graphic4 {
+  width: 420px;
+}
+
+.indicators1__item-graphic1-white, .indicators1__item-graphic2-white, .indicators1__item-graphic3-white, .indicators1__item-graphic4-white {
+  width: 130px;
+  background-color: white;
+  height: 40px;
+}
+
+.indicators1__item-graphic1-white-red {
+  width: 220px;
+  background-color: #94070a;
+  height: 40px;
+}
+
+.indicators1__item-graphic2-white-red {
+  width: 240px;
+  background-color: #94070a;
+  height: 40px;
+}
+
+.indicators1__item-graphic3-white-red {
+  width: 630px;
+  background-color: #94070a;
+  height: 40px;
+}
+
+.indicators1__item-graphic4-white-red {
+  width: 290px;
+  background-color: #94070a;
+  height: 40px;
+}
+
 .indicators1__item-graphic1 {
   margin-right: 20px;
 }
