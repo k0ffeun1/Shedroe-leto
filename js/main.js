@@ -4,9 +4,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
-        arrows: true,
-        prevArrow: '<button type = "button" class = "slick-prev"></ button>',
-        nextArrow: '<button type = "button" class = "slick-next"></ button>',
+        arrows: false,
         responsive: [
             {
                 breakpoint: 1024,
