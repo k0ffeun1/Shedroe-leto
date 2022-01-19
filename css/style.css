@@ -492,11 +492,19 @@ a {
 
 @media (max-width: 1686px) {
   .portraits__img {
-    position: absolute;
-    top: -234%;
-    right: -25%;
-    -webkit-transform: scale(24%);
-            transform: scale(24%);
+    top: -205%;
+    right: -34%;
+    -webkit-transform: scale(38%);
+            transform: scale(38%);
+  }
+}
+
+@media (max-width: 1600px) {
+  .portraits__img {
+    top: -206%;
+    right: -36%;
+    -webkit-transform: scale(36%);
+            transform: scale(36%);
   }
 }
 
@@ -1218,6 +1226,12 @@ a {
   }
 }
 
+@media (max-width: 1650px) {
+  .result {
+    background-size: 115%;
+  }
+}
+
 @media (max-width: 1500px) {
   .result {
     background-size: 125%;
@@ -1516,8 +1530,9 @@ a {
 .interview__img-bottom {
   position: absolute;
   z-index: 5;
-  right: -8%;
-  top: -3%;
+  right: -6%;
+  top: -9%;
+  width: 31%;
 }
 
 .interview__top-citata {
@@ -1564,14 +1579,23 @@ a {
   }
 }
 
+@media (max-width: 1650px) {
+  .interview__img-top {
+    top: -6%;
+  }
+  .interview__img-bottom {
+    top: -12%;
+  }
+}
+
 @media (max-width: 1440px) {
   .interview__img-top {
     left: -17%;
     top: -8%;
   }
   .interview__img-bottom {
-    right: -8%;
-    top: -8%;
+    right: -5%;
+    top: -13%;
   }
 }
 
@@ -1603,6 +1627,8 @@ a {
   }
   .interview__img-bottom {
     top: -8%;
+    right: -5%;
+    width: 35%;
   }
   .interview__bottom-citata {
     right: 16%;
@@ -1628,7 +1654,9 @@ a {
     left: -9%;
   }
   .interview__img-bottom {
-    top: 0%;
+    top: 21%;
+    right: -1%;
+    width: 36%;
   }
   .interview__top-citata {
     left: 27%;
@@ -1643,7 +1671,9 @@ a {
     top: 26%;
   }
   .interview__img-bottom {
-    top: 3%;
+    top: 21%;
+    right: -1%;
+    width: 36%;
   }
   .interview__top-citata {
     left: 27%;
@@ -1677,8 +1707,8 @@ a {
     top: 84%;
   }
   .interview__img-bottom {
-    top: 25%;
-    width: 45%;
+    top: 16%;
+    width: 46%;
     right: -7%;
   }
 }
